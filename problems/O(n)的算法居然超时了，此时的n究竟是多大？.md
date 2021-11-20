@@ -1,10 +1,7 @@
 <p align="center">
-  <a href="https://mp.weixin.qq.com/s/RsdcQ9umo09R6cfnwXZlrQ"><img src="https://img.shields.io/badge/PDF下载-代码随想录-blueviolet" alt=""></a>
-  <a href="https://mp.weixin.qq.com/s/b66DFkOp8OOxdZC_xLZxfw"><img src="https://img.shields.io/badge/刷题-微信群-green" alt=""></a>
-  <a href="https://space.bilibili.com/525438321"><img src="https://img.shields.io/badge/B站-代码随想录-orange" alt=""></a>
-  <a href="https://mp.weixin.qq.com/s/QVF6upVMSbgvZy8lHZS3CQ"><img src="https://img.shields.io/badge/知识星球-代码随想录-blue" alt=""></a>
-</p>
-<p align="center"><strong>欢迎大家<a href="https://mp.weixin.qq.com/s/tqCxrMEU-ajQumL1i8im9A">参与本项目</a>，贡献其他语言版本的代码，拥抱开源，让更多学习算法的小伙伴们收益！</strong></p>
+<a href="https://www.aliyun.com/minisite/goods?taskPkg=1111ydsrwb&pkgSid=1959&recordId=962642&userCode=roof0wob" target="_blank">
+    <img src="https://code-thinking.cdn.bcebos.com/pics/20211111014019.png" width="1000"/>
+</a>
 # 程序提交之后为什么会超时？O(n)的算法会超时，n究竟是多大？
 
 
@@ -67,7 +64,7 @@
 
 实现三个函数，时间复杂度分别是 O(n) , O(n^2), O(nlogn)，使用加法运算来统一测试。
 
-```C++
+```CPP
 // O(n)
 void function1(long long n) {
     long long k = 0;
@@ -78,7 +75,7 @@ void function1(long long n) {
 
 ```
 
-```C++
+```CPP
 // O(n^2)
 void function2(long long n) {
     long long k = 0;
@@ -91,7 +88,7 @@ void function2(long long n) {
 }
 ```
 
-```C++
+```CPP
 // O(nlogn)
 void function3(long long n) {
     long long k = 0;
@@ -105,7 +102,7 @@ void function3(long long n) {
 ```
 
 来看一下这三个函数随着n的规模变化，耗时会产生多大的变化，先测function1 ，就把 function2 和 function3 注释掉
-```C++
+```CPP
 int main() {
     long long n; // 数据规模
     while (1) {
@@ -154,7 +151,7 @@ O(nlogn)的算法，1s内大概计算机可以运行 2 * (10^7)次计算，符�
 
 # 完整测试代码
 
-```C++
+```CPP
 #include <iostream>
 #include <chrono>
 #include <thread>
@@ -232,7 +229,7 @@ Go：
 
 
 -----------------------
-* 作者微信：[程序员Carl](https://mp.weixin.qq.com/s/b66DFkOp8OOxdZC_xLZxfw)
-* B站视频：[代码随想录](https://space.bilibili.com/525438321)
-* 知识星球：[代码随想录](https://mp.weixin.qq.com/s/QVF6upVMSbgvZy8lHZS3CQ)
-<div align="center"><img src=../pics/公众号.png width=450 alt=> </img></div>
+<p align="center">
+<a href="https://mp.weixin.qq.com/s/QVF6upVMSbgvZy8lHZS3CQ" target="_blank">
+  <img src="https://code-thinking-1253855093.file.myqcloud.com/pics/20210924105952.png" width="1000"/>
+</a>
